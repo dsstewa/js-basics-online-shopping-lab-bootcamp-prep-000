@@ -26,7 +26,6 @@ console.log(cart)
 }
  
 
-
 function viewCart() {
  if (cart.length === 0)  {
   return 'Your shopping cart is empty.'
@@ -40,7 +39,6 @@ function viewCart() {
   }
   }
 }
-console.log("Test David Output")
 
 function total() {
   // write your code here
