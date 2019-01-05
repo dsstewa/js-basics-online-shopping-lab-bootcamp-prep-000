@@ -29,19 +29,21 @@ console.log(cart)
 function viewCart() {
   var cartPrint = []
   var cartPrintL = []
+  
  if (cart.length === 0)  {
   return 'Your shopping cart is empty.'
 } else {
-  
   cartPrint.push(`In your cart, you have`)
+  
   for (var i = 0; i < cart.length; i++) {
   var array2Object = cart[i];
   console.log(array2Object.itemName)
   console.log(cart.length)
   cartPrint[0]= cartPrint +` ${array2Object.itemName} at $${array2Object.itemPrice}.`
   console.log(i)
+  
+    
   }
- 
  
   array2Object = cart[cart.length - 1];
   cartPrintL[0] = cartPrint +` and ${array2Object.itemName} at $${array2Object.itemPrice}.`
