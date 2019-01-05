@@ -58,7 +58,7 @@ function total() {
     array2Object = cart[i];
     console.log(array2Object.itemPrice)
     console.log(cost)
-    cost[0]= array2Object.itemPrice
+    cost[0]= array2Object.itemPrice + cost
     console.log(cost)
   }
   return cost
