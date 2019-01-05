@@ -64,12 +64,16 @@ function total() {
 
 function isTheItemInTheCart(item) {
    var array2Object = cart[0]
-   var 
+   
    for (var i = 0; i < cart.length; i++) {
     array2Object = cart[i];
-    if (array2Object.itemName === item)
-    
-    
+    if (array2Object.itemName === item) {
+    return true
+   } else {
+     
+   }
+   }
+   
     
     
     
