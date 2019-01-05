@@ -34,6 +34,7 @@ function viewCart() {
   var printCart = []
   for (var i = 0; i < cart.length; i++ ) {
   printCart.push(cart[i])
+  console.log(cart)
   }
   }
 }
