@@ -56,7 +56,16 @@ function viewCart() {
 
 
 function total() {
-  // write your code here
+  var cost = []
+  var array2Object = cart[0]
+  for (var i = 0; i < cart.length; i++) {
+    array2Object = cart[i];
+    cost[0]= cost + array2Object.itemPrice
+    
+  }
+  return cost
+  
+  
   
 }
 
