@@ -18,7 +18,7 @@ function addToCart(item) {
 var price = randomNumber(1, 100)
 var itemName = {itemName}
 var itemPrice = {itemPrice}
-cart[itemName] = item
+cart[itemName] = `${item}`
 cart[itemPrice] = price
  
  return cart
