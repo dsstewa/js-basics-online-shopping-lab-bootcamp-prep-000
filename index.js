@@ -35,8 +35,8 @@ function viewCart() {
   cartPrint.push(`In your cart, you have`)
   for (var i = 0; i <= cart.length; i++ ) {
   var array2Object = cart[i];
-  v=
-  cartPrint[i]= cartPrint +` ${array2Object.itemName} at $${array2Object.itemPrice}.`
+  
+  cartPrint[0]= cartPrint +` ${array2Object.itemName} at $${array2Object.itemPrice}.`
 
 
   return cartPrint
