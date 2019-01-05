@@ -40,10 +40,9 @@ function viewCart() {
   cartPrint.push(`In your cart, you have`)
   for (var i = 0; i < cart.length -1; i++) {
   array2Object = cart[i];
-  console.log(array2Object.itemName)
-  console.log(cart.length)
+  
   cartPrint[0]= cartPrint +` ${array2Object.itemName} at $${array2Object.itemPrice},`
-  console.log(i)
+  
   }
   array2Object = cart[cart.length -1];
   cartPrint[0]= cartPrint +` and ${array2Object.itemName} at $${array2Object.itemPrice}.`
