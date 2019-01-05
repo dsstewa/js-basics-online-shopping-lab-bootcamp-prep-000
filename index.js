@@ -70,20 +70,18 @@ function isTheItemInTheCart(item) {
     if (array2Object.itemName === item) {
     return true
    } else {
-     
    }
    }
    return false
-    
-    
-    
-    
-   
 }
 
 
 function removeFromCart(item) {
-
+if (isTheItemInTheCart(item)) {
+  
+} else {
+  return ""
+}
 
 
 
