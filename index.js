@@ -31,15 +31,14 @@ function viewCart() {
   return 'Your shopping cart is empty.'
 } else {
   var cartPrint = []
-  console.log(cart)
   var array2Object = cart[0]
+  console.log(cart)
   console.log(cart[0])
   console.log(array2Object.itemPrice)
   console.log(cart.length)
   cartPrint[0] = `In your cart, you have ${cart[itemPrice]}`
-  
   for (var i = 0; i < cart.length; i++ ) {
-  
+  cartPrint.push
   
   
   
