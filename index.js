@@ -42,7 +42,7 @@ function viewCart() {
   for (var i = 0; i < cart.length; i++ ) {
   var array2Object = cart[i];
   v=
-  cartPrint[0]= cartPrint +` ${array2Object.itemName} at $${array2Object.itemPrice}`
+  cartPrint[0]= cartPrint +` ${array2Object.itemName} at $${array2Object.itemPrice}.`
   
   
   
