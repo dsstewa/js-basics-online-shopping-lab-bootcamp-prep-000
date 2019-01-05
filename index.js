@@ -38,11 +38,11 @@ function viewCart() {
   console.log(cart.length)
   
   for (var i = 0; i < cart.length; i++ ) {
+  var array2Object = cart[i]
   cartPrint.push(array2Object.itemName)
   console.log(cartPrint)
   
   
-  printCart.push(cart[i])
   
   
   
