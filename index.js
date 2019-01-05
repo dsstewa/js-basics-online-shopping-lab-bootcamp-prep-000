@@ -19,7 +19,7 @@ var price = randomNumber(1, 100)
 var subcart = {}
 subcart['itemName'] = item
 subcart['itemPrice'] = price
-cart.push(subcart)
+cart.push[cart]
 console.log(cart)
  
  return cart
