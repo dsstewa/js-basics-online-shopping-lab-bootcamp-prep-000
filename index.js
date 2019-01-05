@@ -79,6 +79,7 @@ function isTheItemInTheCart(item) {
 function removeFromCart(item) {
 if (isTheItemInTheCart(item)) {
   
+  
 } else {
   return "That item is not in your cart."
 }
