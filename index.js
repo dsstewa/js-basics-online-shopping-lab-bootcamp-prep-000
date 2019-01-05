@@ -38,7 +38,7 @@ function viewCart() {
   console.log(array2Object.itemName)
   console.log(cart.length)
   cartPrint[0]= cartPrint +` ${array2Object.itemName} at $${array2Object.itemPrice}.`
-
+return cartPrint
   }
   
   }
