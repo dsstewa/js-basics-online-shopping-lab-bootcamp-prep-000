@@ -28,8 +28,8 @@ console.log(cart)
 
 function addToCart(item) {
 var price = randomNumber(1, 100)
-subcart['itemName'] = item
-subcart['itemPrice'] = price
+subCart['itemName'] = item
+subCart['itemPrice'] = price
 
 console.log(subCart)
  
