@@ -34,13 +34,16 @@ function viewCart() {
   console.log(cart)
   var array2Object = cart[0]
   console.log(cart[0])
-  console.log(array2Object.itemName)
+  console.log(array2Object.itemPrice)
   
   cartPrint[0] = `In your cart, you have ${cart[itemPrice]}`
-  
- console.log(cartPrint)
+ 
   for (var i = 0; i < cart.length; i++ ) {
+  
+  
   printCart.push(cart[i])
+  
+  
   
   }
   }
