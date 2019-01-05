@@ -79,7 +79,7 @@ function isTheItemInTheCart(item) {
 
 function removeFromCart(item) {
 if (isTheItemInTheCart(item)) {
-  
+  cart.splic(loc,loc)
   
 } else {
   return "That item is not in your cart."
