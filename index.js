@@ -46,7 +46,7 @@ function viewCart() {
   console.log(i)
   }
   array2Object = cart[cart.length -1];
-  cartPrint[0]= cartPrint +`and ${array2Object.itemName} at $${array2Object.itemPrice},`
+  cartPrint[0]= cartPrint +` and ${array2Object.itemName} at $${array2Object.itemPrice}.`
   
 }
   return cartPrint
