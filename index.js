@@ -20,7 +20,7 @@ var itemName1 = item
 var itemPrice1 = price
 subcart['itemName'] = item
 subcart['itemPrice'] = price
-
+cart.push(subcart)
 console.log(subcart)
  
  return cart
