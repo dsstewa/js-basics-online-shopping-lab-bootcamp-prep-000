@@ -52,8 +52,6 @@ function viewCart() {
   }
 
   
-
-
 function total() {
   console.log(cart)
   var cost = []
