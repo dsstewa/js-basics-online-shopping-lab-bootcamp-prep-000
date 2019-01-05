@@ -69,7 +69,7 @@ function isTheItemInTheCart(item) {
     array2Object = cart[i];
     if (array2Object.itemName === item) {
       
-    return true i
+    return i
    } else {
    }
    }
