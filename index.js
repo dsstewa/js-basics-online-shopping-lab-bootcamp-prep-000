@@ -54,7 +54,7 @@ function viewCart() {
 function total() {
   var cost = []
   var array2Object = cart[0]
-  for (var i = 0; i < cart.length; i++) {
+  for (var i = 0; i <= cart.length; i++) {
     array2Object = cart[i];
     console.log(array2Object.itemPrice)
     console.log(cost)
