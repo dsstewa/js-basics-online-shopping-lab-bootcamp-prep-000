@@ -60,7 +60,7 @@ function total() {
   for (var i = 0; i < cart.length; i++) {
     array2Object = cart[i];
     cost[0]= cost + array2Object.itemPrice
-    
+    console.log(cost)
   }
   return cost
   
