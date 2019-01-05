@@ -14,7 +14,16 @@ function randomNumber(min, max) {
   return Math.floor(r)
 }
 
-function addToCart(item) {
+
+
+
+
+
+
+
+
+
+unction addToCart(item) {
 var price = randomNumber(1, 100)
  cart[`itemName: ${item}`] = `itemPrice: ${price}`
  return `${item} has been added to your cart.`
