@@ -22,8 +22,11 @@ subCart['itemPrice'] = price
 cart.push(subCart)
 console.log(cart)
   return `${item} has been added to your cart.`
-if (cart.length = 0)  {
-  return 'Your shopping '
+if (cart.length === 0)  {
+  return 'Your shopping cart is empty.'
+} else {
+  for (var i = 0; )
+  
 }
  
 }
