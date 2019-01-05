@@ -96,3 +96,4 @@ function placeOrder(cardNumber) {
   }
  cart = [];
 }
+cart = [];
