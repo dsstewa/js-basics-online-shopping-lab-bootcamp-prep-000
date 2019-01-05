@@ -31,7 +31,7 @@ function viewCart() {
  if (cart.length === 0)  {
   return 'Your shopping cart is empty.'
 } else {
-  console.log("Test David Output")
+  
   var printCart = []
   for (var i = 0; i < cart.length; i++ ) {
   printCart.push(cart[i])
@@ -39,6 +39,7 @@ function viewCart() {
   }
   }
 }
+console.log("Test David Output")
 
 function total() {
   // write your code here
