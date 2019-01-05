@@ -32,7 +32,7 @@ function viewCart() {
 } else {
   var cartPrint = []
   console.log(cart)
-  cartPrint[0] = `In your cart, you have ${cart['itemPrice']}`
+  cartPrint[0] = `In your cart, you have ${cart[itemPrice]}`
   
  console.log(cartPrint)
   for (var i = 0; i < cart.length; i++ ) {
