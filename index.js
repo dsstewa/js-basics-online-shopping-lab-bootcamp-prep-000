@@ -16,14 +16,13 @@ function randomNumber(min, max) {
 
 function addToCart(item) {
 var price = randomNumber(1, 100)
-var itemName = {itemName: item}
-var itemPrice = {itemPrice: price}
-cart[itemName]
-cart[itemPrice]
+var itemName = {itemName}
+var itemPrice = {itemPrice}
+cart[itemName] = item
+cart[itemPrice] = price
  
  return cart
 
-  
 }
 
 
