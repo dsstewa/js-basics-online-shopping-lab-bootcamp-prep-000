@@ -61,10 +61,7 @@ function total() {
     cost[0]= cost[0] + array2Object.itemPrice
     console.log(cost)
   }
-  
-  
  return cost[0] 
-  
 }
 
 function removeFromCart(item) {
