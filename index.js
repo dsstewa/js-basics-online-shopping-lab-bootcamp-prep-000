@@ -21,7 +21,7 @@ var itemPrice1 = price
 subcart['itemName'] = item
 subcart['itemPrice'] = price
 cart.push(subcart)
-console.log(subcart)
+console.log(cart)
  
  return cart
 
