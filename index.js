@@ -16,7 +16,7 @@ function randomNumber(min, max) {
 
 function addToCart(item) {
 var price = randomNumber(1, 100)
- cart[`itemName: ${item}`] = `itemPrice: ${price}`
+var itemName = 
  
 
   
