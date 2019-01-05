@@ -33,11 +33,13 @@ function viewCart() {
 } else {
   
   cartPrint.push(`In your cart, you have`)
+  
   for (var i = 0; i <= cart.length; i++ ) {
   var array2Object = cart[i];
   console.log(array2Object.itemName)
   console.log(cart.length)
   cartPrint[0]= cartPrint +` ${array2Object.itemName} at $${array2Object.itemPrice}.`
+console.log(i)
 return cartPrint
   }
   
