@@ -45,7 +45,7 @@ function viewCart() {
   
   }
 
-  return cartPrint
+  return cartPrintL
 }
 
 function total() {
