@@ -62,8 +62,27 @@ function total() {
  return cost[0] 
 }
 
+function isTheItemInTheCart(item) {
+   var array2Object = cart[0]
+   
+   
+}
+
+
 function removeFromCart(item) {
-  // write your code here
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 function placeOrder(cardNumber) {
