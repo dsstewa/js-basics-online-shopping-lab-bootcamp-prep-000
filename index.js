@@ -32,7 +32,9 @@ function viewCart() {
 } else {
   var cartPrint = []
   console.log(cart)
+  var array2Object = cart[0]
   console.log(cart[0])
+  console.log(array2Object.itemName)
   
   cartPrint[0] = `In your cart, you have ${cart[itemPrice]}`
   
