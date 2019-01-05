@@ -30,8 +30,10 @@ function viewCart() {
  if (cart.length === 0)  {
   return 'Your shopping cart is empty.'
 } else {
-  console.log(cart) 
-  var printCart = []
+  var cartPrint = []
+  console.log(cart)
+  cartPrint = 
+ 
   for (var i = 0; i < cart.length; i++ ) {
   printCart.push(cart[i])
   
