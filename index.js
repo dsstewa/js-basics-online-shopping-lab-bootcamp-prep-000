@@ -28,13 +28,11 @@ console.log(cart)
 
 function addToCart(item) {
 var price = randomNumber(1, 100)
-var subcart = {}
 subcart['itemName'] = item
 subcart['itemPrice'] = price
-cart.push(`${subcart}`)
-console.log(cart)
+
+console.log(subCart)
  
- return cart
 
 }
 
