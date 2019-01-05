@@ -32,21 +32,15 @@ function viewCart() {
 } else {
   var cartPrint = []
   var cartPrint0 = []
-
-  
-
-  console.log(cart.length)
   cartPrint.push(`In your cart, you have`)
-  
   for (var i = 0; i < cart.length; i++ ) {
   var array2Object = cart[i];
   v=
   cartPrint[0]= cartPrint +` ${array2Object.itemName} at $${array2Object.itemPrice}.`
-  
-  
+
   
 
-  console.log(cartPrint)
+  return cartPrint
   
   }
   }
