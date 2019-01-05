@@ -14,11 +14,13 @@ function randomNumber(min, max) {
   return Math.floor(r)
 }
 
+function addToCart(item) {
+var price = randomNumber(1, 100)
+ cart[`itemName: ${item}`] = `itemPrice: ${price}`
+ 
 
-
-
-
-
+  
+}
 
 
 
