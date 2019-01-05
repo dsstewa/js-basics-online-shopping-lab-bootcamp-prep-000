@@ -35,7 +35,7 @@ function viewCart() {
 } else  if (cart.length === 1) {
   cartPrint.push(`In your cart, you have`)
   cartPrint[0]= cartPrint +` ${array2Object.itemName} at $${array2Object.itemPrice}.`
-  return cartPrint
+  
 } else {
   
 }
@@ -50,8 +50,7 @@ function viewCart() {
     
   }
  
-  array2Object = cart[cart.length - 1];
-  cartPrintL[0] = cartPrint +` and ${array2Object.itemName} at $${array2Object.itemPrice}.`
+  return cartPrint
   
   }
 
