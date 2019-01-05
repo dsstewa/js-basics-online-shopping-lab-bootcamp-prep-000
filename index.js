@@ -27,10 +27,11 @@ console.log(cart)
  
 
 function viewCart() {
+  var cartPrint = []
  if (cart.length === 0)  {
   return 'Your shopping cart is empty.'
 } else {
-  var cartPrint = []
+  
   cartPrint.push(`In your cart, you have`)
   for (var i = 0; i <= cart.length; i++ ) {
   var array2Object = cart[i];
@@ -41,7 +42,7 @@ function viewCart() {
   }
   
   }
-  
+  return cartPrint
 }
 
 function total() {
