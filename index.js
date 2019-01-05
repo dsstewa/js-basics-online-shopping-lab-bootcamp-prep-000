@@ -52,7 +52,6 @@ function viewCart() {
   }
 
 function total() {
-  var cost = [0]
   var array2Object = cart[0]
   for (var i = 0; i < cart.length; i++) {
     array2Object = cart[i];
