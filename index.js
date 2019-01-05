@@ -40,7 +40,7 @@ function viewCart() {
   console.log(cart.length)
   cartPrint[0]= cartPrint +` ${array2Object.itemName} at $${array2Object.itemPrice}.`
 console.log(i)
-return cartPrint
+console.log(cartPrint)
   }
   
   }
