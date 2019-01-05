@@ -39,7 +39,6 @@ function viewCart() {
   cartPrint[0]= cartPrint +` ${array2Object.itemName} at $${array2Object.itemPrice}.`
 
 
-
   }
   return cartPrint
   }
