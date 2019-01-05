@@ -68,7 +68,8 @@ function isTheItemInTheCart(item) {
    for (var i = 0; i < cart.length; i++) {
     array2Object = cart[i];
     if (array2Object.itemName === item) {
-    return true
+      
+    return true i
    } else {
    }
    }
