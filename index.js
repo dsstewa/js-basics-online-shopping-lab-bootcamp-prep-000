@@ -47,7 +47,6 @@ function viewCart() {
   }
   array2Object = cart[cart.length -1];
   cartPrint[0]= cartPrint +` and ${array2Object.itemName} at $${array2Object.itemPrice}.`
-  
 }
   return cartPrint
   
@@ -58,6 +57,7 @@ function viewCart() {
 
 function total() {
   // write your code here
+  
 }
 
 function removeFromCart(item) {
