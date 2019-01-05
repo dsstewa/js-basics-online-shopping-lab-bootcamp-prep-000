@@ -61,15 +61,15 @@ function total() {
   }
  return cost[0] 
 }
-
+var loc = [];
 function isTheItemInTheCart(item) {
    var array2Object = cart[0]
    
    for (var i = 0; i < cart.length; i++) {
     array2Object = cart[i];
     if (array2Object.itemName === item) {
-      
-    return i
+      loc = i
+    return true
    } else {
    }
    }
