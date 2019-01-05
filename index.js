@@ -31,6 +31,7 @@ function viewCart() {
   return 'Your shopping cart is empty.'
 } else {
   var cartPrint = []
+  var cartPrint0 = []
   
   console.log(cart)
   console.log(cart[0])
@@ -40,8 +41,9 @@ function viewCart() {
   
   for (var i = 0; i < cart.length; i++ ) {
   var array2Object = cart[i];
-  
+  v=
   cartPrint[0]= cartPrint +` ${array2Object.itemName} at $${array2Object.itemPrice}`
+  
   
   
 
