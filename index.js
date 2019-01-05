@@ -42,7 +42,7 @@ function viewCart() {
   }
   
   }
-  return cartPrint
+  
 }
 
 function total() {
