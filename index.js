@@ -88,7 +88,9 @@ return cart
 }
 
 function placeOrder(cardNumber) {
-  // write your code here
+  if (cardNumber === "") {
+    return ""
+  }
   
   
   
