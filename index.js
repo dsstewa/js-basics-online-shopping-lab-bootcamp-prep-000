@@ -32,9 +32,8 @@ function viewCart() {
 } else {
   var cartPrint = []
   var cartPrint0 = []
+
   
-  console.log(cart)
-  console.log(cart[0])
 
   console.log(cart.length)
   cartPrint.push(`In your cart, you have`)
