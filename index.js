@@ -38,7 +38,7 @@ function viewCart() {
   
 } else {
   cartPrint.push(`In your cart, you have`)
-  for (var i = 0; i < cart.length; i++) {
+  for (var i = 0; i < cart.length -1; i++) {
   array2Object = cart[i];
   console.log(array2Object.itemName)
   console.log(cart.length)
