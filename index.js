@@ -34,9 +34,11 @@ function viewCart() {
   return 'Your shopping cart is empty.'
 } else  if (cart.length === 1) {
   cartPrint.push(`In your cart, you have`)
+  cartPrint[0]= cartPrint +` ${array2Object.itemName} at $${array2Object.itemPrice}.`
+  return cartPrint
+} else {
   
-  
-  
+}
   
   for (var i = 0; i < cart.length; i++) {
   var array2Object = cart[i];
@@ -53,8 +55,8 @@ function viewCart() {
   
   }
 
-  return cartPrintL
-}
+  
+
 
 function total() {
   // write your code here
