@@ -31,7 +31,6 @@ function viewCart() {
   return 'Your shopping cart is empty.'
 } else {
   var cartPrint = []
-  var cartPrint0 = []
   cartPrint.push(`In your cart, you have`)
   for (var i = 0; i <= cart.length; i++ ) {
   var array2Object = cart[i];
