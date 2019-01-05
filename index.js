@@ -32,7 +32,7 @@ function viewCart() {
 } else {
   var cartPrint = []
   console.log(cart)
-  cartPrint =
+  cartPrint[0] = `
  
   for (var i = 0; i < cart.length; i++ ) {
   printCart.push(cart[i])
