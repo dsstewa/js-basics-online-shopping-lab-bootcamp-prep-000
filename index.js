@@ -38,8 +38,8 @@ function viewCart() {
   console.log(cart.length)
   cartPrint[0] = `In your cart, you have ${cart[itemPrice]}`
   for (var i = 0; i < cart.length; i++ ) {
-  cartPrint.push
-  
+  cartPrint.push(array2Object.itemName)
+  console.log(cartPrint)
   
   
   printCart.push(cart[i])
