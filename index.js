@@ -22,24 +22,9 @@ subcart['itemPrice'] = price
 cart.push(`${subcart}`)
 console.log(cart)
  
- return cart
+ return `${item} has been added to your cart.`
 
 }
-
-function addToCart(item) {
-var price = randomNumber(1, 100)
-subCart['itemName'] = item
-subCart['itemPrice'] = price
-
-console.log(subCart)
- 
-
-}
-
-
-
-
-
 
 
 
