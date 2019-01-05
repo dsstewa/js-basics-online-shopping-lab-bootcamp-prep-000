@@ -16,7 +16,7 @@ function randomNumber(min, max) {
 
 function addToCart(item) {
 var price = randomNumber(1, 100)
-var subcart = {}
+var subCart = {}
 subCart['itemName'] = item
 subCart['itemPrice'] = price
 cart.push(subCart)
