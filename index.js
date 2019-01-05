@@ -31,7 +31,7 @@ function viewCart() {
  if (cart.length === 0)  {
   return 'Your shopping cart is empty.'
 } else {
-  console.log("I Can see you")
+  console.log("Test David Output")
   var printCart = []
   for (var i = 0; i < cart.length; i++ ) {
   printCart.push(cart[i])
