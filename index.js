@@ -63,7 +63,7 @@ function total() {
   }
   
   
- return cost 
+ return cost[0] 
   
 }
 
